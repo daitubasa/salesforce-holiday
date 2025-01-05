@@ -29,7 +29,6 @@ public class HolidayList {
         }
 
         for (Holiday holiday : this.holidayList) {
-            System.debug('** judgeDate: ' + judgeDate + ', holiday: ' + holiday);
             if (holiday.IsRecurrence) {
                 if (isHolidayRecurrence(holiday, judgeDate)) {
                     return true;
