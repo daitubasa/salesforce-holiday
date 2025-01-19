@@ -286,11 +286,8 @@ public class HolidayList {
             when 32 {
                 return DayOfWeek.FRIDAY;
             }
-            when 64 {
+            when else { // 64しかないので
                 return DayOfWeek.SATURDAY;
-            }
-            when else {
-                throw new IllegalArgumentException('変数:bitMask が想定していない値です。値:' + bitMask);
             }
         }
     }
