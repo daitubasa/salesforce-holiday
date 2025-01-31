@@ -26,5 +26,6 @@
     "**/.sf": true,
     "**/.sfdx": true,
     "**/*.cls-meta.xml": true
-  }
+  },
+  "salesforce.einsteinForDevelopers.enable": false
 }
